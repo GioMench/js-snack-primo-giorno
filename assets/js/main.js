@@ -3,27 +3,30 @@ Esercizio 1
 Dichiara una variabile chiamata number e assegnale il valore 100. Stampa il valore della variabile in console
 */
 
-let number = 100 //number
+let number = 100 //number integer
 
-console.log(number); //number
+console.log(number); //number integer
 
 
 /*Esercizio 2
 Dichiara una costante chiamata PI e assegnale il valore di 3.14. Stampa il valore della costante in console
 */
 
-const PI = 3.14 //number
+const PI = 3.14 //number float
 
-console.log(PI); //number
+console.log(PI); //number float
 
 
 /*Esercizio 2/B
 Prova ad assegnare alla costante chiamata PI il valore di 3.1416. Sai dire cosa succede?
-*/
+
 
 //PI = 3.1416
 
-//main.js:24 Uncaught TypeError: Assignment to constant variable.
+
+main.js:24 Uncaught TypeError: Assignment to constant variable.
+la console da errore perchè essendo una costante non può essere sovrascritto
+*/
 
 
 /*
@@ -33,11 +36,11 @@ Moltiplica radius x 2 e x PI e assegna il valore a una variabile di nome circle.
 Stampa il valore della variabile circle in console.
 */
 
-let radius = 8 //number
+let radius = 8 //number integer
 
 let circle = radius * 2 * PI
 
-console.log(circle); //number
+console.log(circle); //number float
 
 
 /*
